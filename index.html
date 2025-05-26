@@ -1,0 +1,636 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>My Portfolio &mdash; Kreshnik Kelmendi - Frontend Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="My Portfolio" />
+	<meta name="keywords" content="Kreshnik Kelmendi" />
+	<!-- <meta name="author" content="freehtml5.co" /> -->
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t js-fullheight">
+							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+								<div class="profile-thumb" style="background: url(images/miku.png);"></div>
+								<h1><span>Kreshnik Kelmendi</span></h1>
+								<h3><span>Frontend Developer</span></h3>
+								<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+								</ul>
+								</p>
+								<!-- Button to navigate to Work section -->
+								<a href="#fh5co-work" class="btn btn-info" style="border-radius: 4px;">View My Work</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="fh5co-about" class="animate-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>About Me</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<ul class="info">
+							<li><span style="font-weight: 900; font-size: 10px;" class="first">Full Name:</span><span
+									class=""> Kreshnik Kelmendi</span></li>
+							<li><span style="font-weight: 900; font-size: 10px;" class="firs">Phone:</span><span
+									class=""> + 383 49 831 671</span></li>
+							<li><span style="font-weight: 900; font-size: 10px;" class="first">Email:</span><span
+									class=""> kreshnik.kelmendi1994@gmail.com</span></li>
+							<li><span style="font-weight: 900; font-size: 10px;" class="first">Address:</span><span
+									class=""> Prishtinë / Kosova</span></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<h2>Hello There!</h2>
+						<p>
+							Experienced web developer specializing in React JS, Next JS, Vue JS and React Native, with a
+							strong
+							track record of building responsive web and mobile applications. Proficient in core
+							technologies like HTML5, CSS3,
+							JavaScript, and modern frameworks such as Tailwind CSS and Bootstrap. Skilled in Strapi CMS
+							for streamlined content management,
+							delivering high-performance, scalable solutions.
+						</p>
+						<p>React Native developer in building cross-platform mobile apps for iOS and Android. Proficient
+							in using React Native, JavaScript, and TypeScript to create responsive and high-performance
+							apps. Strong focus on mobile UI/UX design with frameworks like Tailwind CSS and
+							styled-components.</p>
+						<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+						</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-work">
+				<div class="container">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>My Projects</h2>
+							<p>Here are some of my recent works showcasing my skills in web development and design.</p>
+						</div>
+					</div>
+
+					<div class="row" id="projects-container">
+						<!-- Project cards will be injected here -->
+					</div>
+				</div>
+			</div>
+
+			<style>
+				#fh5co-work {
+					padding: 7em 0;
+					background: #f9f9f9;
+				}
+
+				.fh5co-heading h2 {
+					font-size: 40px;
+					margin-bottom: 20px;
+					font-weight: 700;
+					color: #333;
+				}
+
+				.fh5co-heading p {
+					font-size: 18px;
+					line-height: 1.6;
+					color: #666;
+				}
+
+				.project-card {
+					height: 100%;
+					display: flex;
+					flex-direction: column;
+					background: #fff;
+					border-radius: 8px;
+					overflow: hidden;
+					box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+					transition: transform 0.3s ease, box-shadow 0.3s ease;
+					margin-bottom: 30px;
+				}
+
+				.project-card:hover {
+					transform: translateY(-10px);
+					box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+				}
+
+				.project-image {
+					height: 220px;
+					background-size: cover;
+					background-position: center;
+					position: relative;
+				}
+
+				.project-overlay {
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					background: rgba(0, 0, 0, 0.7);
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					opacity: 0;
+					transition: opacity 0.3s ease;
+				}
+
+				.project-card:hover .project-overlay {
+					opacity: 1;
+				}
+
+				.project-overlay h3 {
+					color: #fff;
+					font-size: 22px;
+					margin-bottom: 5px;
+				}
+
+				.project-overlay span {
+					color: rgba(255, 255, 255, 0.8);
+					font-size: 14px;
+				}
+
+				.project-details {
+					padding: 25px;
+					flex-grow: 1;
+					display: flex;
+					flex-direction: column;
+				}
+
+				.project-features {
+					margin-bottom: 20px;
+					display: flex;
+					flex-wrap: wrap;
+					gap: 8px;
+				}
+
+				.badge {
+					background-color: #f0f0f0;
+					color: #555;
+					font-size: 12px;
+					font-weight: 500;
+					border-radius: 4px;
+					padding: 5px 10px;
+					white-space: nowrap;
+				}
+
+				.btn-live {
+					display: inline-block;
+					text-align: center;
+					background: black;
+					color: #fff;
+					padding: 10px 20px;
+					border-radius: 4px;
+					transition: all 0.3s;
+					font-weight: 500;
+					text-decoration: none;
+					margin-top: auto;
+					align-self: flex-start;
+					width: 100%;
+				}
+
+				.btn-live:hover {
+					background: #092a42;
+					text-decoration: none;
+					color: #fff;
+				}
+
+				.technologies-used {
+					margin-top: 15px;
+					font-size: 14px;
+					color: #666;
+					line-height: 1.6;
+				}
+
+				.technologies-used strong {
+					color: #333;
+				}
+
+				.responsive-project-height {
+					height: fit-content;
+				}
+
+				@media (min-width: 768px) {
+					.responsive-project-height {
+						height: 500px;
+					}
+				}
+			</style>
+
+			<script>
+				const projects = [
+					{
+						id: 1,
+						title: "VEGZA",
+						type: "Website",
+						image: "images/veg-WEB3.jpg",
+						features: ["Vegza Website", "Modern Design", "Responsive", "High Performance", "User Friendly"],
+						liveUrl: "https://vegza.vercel.app",
+						technologies: "React JS, Tailwind CSS"
+					},
+					{
+						id: 2,
+						title: "e-Barnatorja",
+						type: "e-Commerce",
+						image: "images/project-77.png",
+						features: ["e-Commerce Platform", "Modern Design", "Responsive", "High Performance", "User Friendly"],
+						liveUrl: "https://www.ebarnatorja.com/",
+						technologies: "Next JS, Tailwind CSS, Node JS, MongoDB, Stripe"
+					},
+					{
+						id: 3,
+						title: "Trekuartista",
+						type: "Website",
+						image: "images/trekuartista-web.png",
+						features: ["Creative Agency", "Modern Design", "Responsive", "User Friendly", "CMS"],
+						liveUrl: "https://trekuartista.com",
+						technologies: "React JS, Tailwind CSS, Framer Motion, Strapi CMS"
+					},
+					{
+						id: 4,
+						title: "Epoque",
+						type: "Website Menu",
+						image: "images/epoque-web.png",
+						features: ["Restaurant Menu", "Modern Design", "Responsive", "User Friendly", "Epoque Menu", "CMS"],
+						liveUrl: "https://epoque-pejton.com",
+						technologies: "React JS, Tailwind CSS, GSAP"
+					},
+					{
+						id: 5,
+						title: "Ananas Impex",
+						type: "Website",
+						image: "images/ananasimpex-web.png",
+						features: ["Company Website", "Modern Design", "Responsive", "Fast Performance"],
+						liveUrl: "https://ananasimpex.com",
+						technologies: "Next JS, Tailwind CSS"
+					},
+					{
+						id: 6,
+						title: "Easy Build",
+						type: "Website",
+						image: "images/easybuild-web.png",
+						features: ["Multilingual", "Modern Design", "Responsive", "User Friendly"],
+						liveUrl: "https://www.easybuild-ks.com/",
+						technologies: "React JS, Tailwind CSS, Framer Motion"
+					},
+					{
+						id: 7,
+						title: "Orientim në Karrierë",
+						type: "Web Development",
+						image: "images/orientim-web.jpg",
+						features: ["Student Resource", "Full-stack Platform", "Responsive"],
+						liveUrl: "https://orientimnekarriere.com",
+						technologies: "HTML, CSS, JS, .NET"
+					},
+					{
+						id: 8,
+						title: "Runway",
+						type: "e-Commerce",
+						image: "images/runway-web.jpg",
+						features: ["Fashion e-Commerce", "Modern Design", "User Friendly"],
+						liveUrl: "https://runwayboutique-ks.com",
+						technologies: "WIX"
+					}
+				];
+
+				function generateProjectCards() {
+					const container = document.getElementById('projects-container');
+
+					const projectCards = projects.map(project => `
+					<div class="col-md-4 col-sm-6 animate-box d-flex align-items-stretch">
+					  <div class="project-card d-flex flex-column responsive-project-height">
+						<div class="project-image" style="background-image: url(${project.image});">
+						  <div class="project-overlay">
+							<h3>${project.title}</h3>
+							<span>${project.type}</span>
+						  </div>
+						</div>
+						<div class="project-details">
+						  <div class="project-features">
+							${project.features.map(feature => `<span class="badge">${feature}</span>`).join('')}
+						  </div>
+						  <a href="${project.liveUrl}" target="_blank" class="btn-live">Visit Live</a>
+						  <div class="technologies-used">
+							<p><strong>Technologies Used:</strong> ${project.technologies}</p>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  `).join('');
+
+					container.innerHTML = projectCards;
+				}
+
+				document.addEventListener('DOMContentLoaded', generateProjectCards);
+			</script>
+
+
+
+		</div>
+
+		<div id="fh5co-resume" class="fh5co-bg-color">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Resume</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0">
+						<ul class="timeline">
+							<li class="timeline-heading text-center animate-box">
+								<div>
+									<h3>Work Experience</h3>
+								</div>
+							</li>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Frontend Developer</h3>
+										<span class="company">TREKUARTISTA</span>
+										<span class="company">March 2022 - present</span>
+									</div>
+									<div class="timeline-body">
+										<p>During this time, I have been responsible for developing responsive and
+											interactive web applications, collaborating with designers and backend
+											developers to deliver seamless user experiences. I have also implemented
+											various modern front-end technologies and frameworks to optimize performance
+											and enhance UI/UX design.</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="animate-box timeline-inverted">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Frontend Developer</h3>
+										<span class="company">SYNC CODE</span>
+										<span class="company">February 2021 - March 2022</span>
+									</div>
+									<div class="timeline-body">
+										<p>
+											As a frontend developer, I have worked on various projects, including e
+											commerce websites and other applications. These projects involved
+											creating engaging and functional user interfaces, integrating various
+											features, and ensuring an excellent user experience.
+										</p>
+									</div>
+								</div>
+							</li>
+
+
+
+							<br>
+							<li class="timeline-heading text-center animate-box">
+								<div>
+									<h3>Education</h3>
+								</div>
+							</li>
+							<li class="timeline-unverted animate-box">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Bachelor Degree</h3>
+										<span class="company">University of Prishtina "Hasan Prishtina"</span>
+										<span class="company">Faculty of Mechanical Engineering</span>
+
+									</div>
+								</div>
+							</li>
+
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">React JS Course</h3>
+										<span class="company">BIT Academy</span>
+										<span class="company">Prishtinë - Kosova</span>
+									</div>
+									<div class="timeline-body">
+										<p>An in-depth course covering modern web development with React JS. It focuses
+											on building dynamic user interfaces, managing state using hooks, and
+											integrating REST APIs. The course also explores React Router,
+											component-driven development, and performance optimization techniques.</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">HTML, CSS, and JavaScript Course</h3>
+										<span class="company">Probit Academy</span>
+										<span class="company">Prishtinë - Kosova</span>
+									</div>
+									<div class="timeline-body">
+										<p>This course provides foundational knowledge in web development, covering HTML
+											for structuring web content, CSS for styling, and JavaScript for creating
+											interactive web pages. The course focuses on building responsive and dynamic
+											websites with hands-on projects and real-world applications.</p>
+									</div>
+								</div>
+							</li>
+
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="fh5co-skills" style="padding: 100px 20px;">
+			<div style="max-width: 1200px; margin: 0 auto;">
+			  <div style="text-align: center; margin-bottom: 40px;">
+				<h2 style="font-size: 32px; font-weight: bold; margin: 0; color: #333;">Skills</h2>
+			  </div>
+			  <div style="
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 16px;
+			  ">
+				<!-- Skills List -->
+				<div class="skill-card">React JS</div>
+				<div class="skill-card">Next JS</div>
+				<div class="skill-card">Vue JS</div>
+				<div class="skill-card">Typescript</div>
+				<div class="skill-card">Strapi CMS</div>
+				<div class="skill-card">React Native</div>
+				<div class="skill-card">Framer Motion</div>
+				<div class="skill-card">GSAP</div>
+				<div class="skill-card">HTML5</div>
+				<div class="skill-card">CSS3</div>
+				<div class="skill-card">JavaScript</div>
+				<div class="skill-card">Tailwind CSS</div>
+				<div class="skill-card">Bootstrap</div>
+			  </div>
+			</div>
+		  </div>
+		  
+		  <style>
+			.skill-card {
+			  background-color: white;
+			  border-radius: 10px;
+			  padding: 14px 20px;
+			  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+			  text-align: center;
+			  transition: transform 0.3s ease, box-shadow 0.3s ease;
+			  font-size: 15px;
+			  color: #333;
+			  font-weight: 600;
+			  flex: 1 1 calc(50% - 16px); /* 2 per row on mobile */
+			  max-width: calc(50% - 16px);
+			}
+		  
+			.skill-card:hover {
+			  transform: scale(1.05);
+			  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+			}
+		  
+			@media(min-width: 768px) {
+			  .skill-card {
+				flex: 1 1 calc(25% - 16px); /* 4 per row on tablet and up */
+				max-width: calc(25% - 16px);
+			  }
+			}
+		  </style>
+		  
+	
+
+		<div id="fh5co-started" style="background:rgb(32, 32, 32);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Hire Me!</h2>
+						<p>Feel free to reach out to me for any inquiries or project collaborations. You can contact me
+							via phone or email:</p>
+						<p>
+							<strong>Phone:</strong> +38349831671<br />
+							<strong>Email:</strong> kreshnik.kelmendi1994@gmail.com
+						</p>
+						<p>
+							<a href="tel:+38349831671" class="btn btn-default btn-lg">Call Me</a>
+							<a href="mailto:kreshnik.kelmendi1994@gmail.com" class="btn btn-default btn-lg">Send an
+								Email</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<!-- <div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></p>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+		<div class="gototop js-top">
+			<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+		</div>
+
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Stellar Parallax -->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- Easy PieChart -->
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<!-- Google Map -->
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+		<script src="js/google_map.js"></script>
+
+		<!-- Main -->
+		<script src="js/main.js"></script>
+
+</body>
+
+</html>
